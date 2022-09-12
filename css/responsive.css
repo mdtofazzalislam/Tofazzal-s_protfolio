@@ -1,0 +1,61 @@
+@media only screen and (max-width:575.99px) {
+     
+     .banner_img img{
+         width: 500px;
+     }
+     div.abt_img img{
+       width: 500px;
+    }
+
+   
+    .success {
+        position: absolute;
+        top: 26px;
+        left: 43px;
+    }
+    .prot_btn button{
+        margin:5px;
+    }
+    .port_img img {
+        width: 256px;
+        padding-bottom: 5px;
+    }
+   .progress_bar{
+    width: 525px;
+   }
+   #testimonial_main .slick-dots {
+     bottom: -18%;
+     right: 33%;
+   }
+   .testi2_inner ul{
+    display: inline;
+    
+   }
+   .testi2_inner ul li{
+    margin: 20px;
+   }
+   .blog_inner{
+    text-align: center;
+    margin: 19px 0;
+   }
+   .blog_date{
+    top: 13px;
+    right: 94px;
+   }
+   .blog_input input{
+    width: 225px;
+   } 
+   .blog2_text {
+    padding: 33px;
+    
+}
+   .blog_input {
+    top: 174px;
+    left: 30px;
+   }
+   #footer p{
+    text-align: center;
+   }
+
+}
+
