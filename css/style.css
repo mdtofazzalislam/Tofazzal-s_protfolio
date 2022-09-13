@@ -196,56 +196,37 @@ p{
    
     
 }
-.banner_mainimg{
-    position: relative;
-}
-.banner_aioverimg {
+
+.banner_arrow {
     position: absolute;
-    top: 61px;
-    left: 40px;
-    
+    color: #ffff;
+    bottom: 61px;
+    left: 45%;
+    font-size: 36px;
     animation-name: psover;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 @keyframes psover {
      0%{
-        top: 0px;
-        left: 40px;
+        bottom: 0px;
+        left: 45%;
+       
      }
      50%{
-        top: 61px;
-        left: 40px;
+        bottom: 61px;
+        left: 45%;
+        color: tomato;
+       
        
      }
      100%{
-        top: 0px;
-        left: 40px;
+        bottom: 0px;
+        left: 45%;
+        
      }
 }
-.banner_figoverimg{
-    position: absolute;
-    bottom: 40px;
-    right: 66%;
-    animation-name: figover;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-@keyframes figover {
-    0%{
-       bottom: 0;
-       right: 66%;
-    }
-    50%{
-       bottom: 61px;
-       right: 66%;
-       
-    }
-    100%{
-      bottom: 0px;
-      right: 66%;
-    }
-}
+
 
 
 
